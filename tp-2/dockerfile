@@ -1,0 +1,7 @@
+FROM ubuntu
+
+RUN mkdir /home/app
+
+COPY run.sh /home/app/run.sh
+
+CMD bin/bash /home/app/run.sh
